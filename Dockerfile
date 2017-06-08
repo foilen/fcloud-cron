@@ -2,7 +2,7 @@ FROM ubuntu:15.10
 
 RUN export TERM=dumb ; export DEBIAN_FRONTEND=noninteractive ; apt-get update && apt-get install -y \
   curl \
-  git=1:2.1.4-2.1ubuntu0.1 \
+  git=1:2.5.0-1ubuntu0.2 \
   openjdk-8-jdk=8u91-b14-3ubuntu1~15.10.1 \
   python=2.7.9-1 \
   python3=3.4.3-4ubuntu1 \
